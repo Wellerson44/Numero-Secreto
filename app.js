@@ -41,10 +41,10 @@ function VerificarChute(){
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
         if(chute > numeroSecreto){
-            Mensagem_tela('h1', 'Tente Novamente');
+            Mensagem_tela('h1', 'Faça uma Tentativa');
             Mensagem_tela('p', 'O número Secreto e MENOR que o chute.');
         } else {
-            Mensagem_tela('h1', 'Tente Novamente');
+            Mensagem_tela('h1', 'Faça uma Tentativa');
             Mensagem_tela('p', 'O número Secreto e Maior que o chute.');
         } tentativa++
           limparCampo();  
